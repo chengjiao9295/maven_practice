@@ -5,7 +5,7 @@
     <groupId>com.alice</groupId>
     <artifactId>maven_practice</artifactId>
     <packaging>pom</packaging><!--pom表示他是一个被继承的模块-->
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <!--工程和模块的区别：
     工程不等于完整的项目，模块也不等于完整的项目，一个完整的项目看的是代码，代码完整，就可以说这是一个完整的项目，
@@ -166,7 +166,7 @@
     <scm>
         <connection>scm:git:https://github.com/chengjiao9295/maven_practice.git</connection><!--从git上拉取代码，只读权限-->
         <developerConnection>scm:git:https://github.com/chengjiao9295/maven_practice.git</developerConnection><!--提交代码到git上，读写权限-->
-        <tag>v1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <!-- 定义snapshots库和releases库的nexus地址 -->
