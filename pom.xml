@@ -5,7 +5,7 @@
     <groupId>com.alice</groupId>
     <artifactId>maven_practice</artifactId>
     <packaging>pom</packaging><!--pom表示他是一个被继承的模块-->
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <!--工程和模块的区别：
     工程不等于完整的项目，模块也不等于完整的项目，一个完整的项目看的是代码，代码完整，就可以说这是一个完整的项目，
@@ -137,7 +137,6 @@
 <!--    </build>-->
 
     <build>
-        <defaultGoal>compile</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
